@@ -25,5 +25,5 @@ NLP powered trial search using ClinTrials.gov database
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set of clinical embeddings are used to calculate the distance between search input CUIs and the clinical trial CUIs:
 <center><img src='cosinesim.png'></img></center>
 
-All trials are ranked based on their similarity and presented to the user:
+All trials are ranked based on a wewighted similarity score and presented to the user:
 <center><img src='rankedNCTs.png'></img></center>

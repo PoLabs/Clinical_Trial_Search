@@ -19,10 +19,10 @@ NLP powered trial search using ClinTrials.gov database
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we split the search input into n-grams:
 <center><img src='ngrams.png'></img></center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then match the n-gram terms to SNOMED-CT Concept Unique Indetifiers (CUIs):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then match the n-gram terms to concets:
 <center><img src='ngramCUIs.png'></img></center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set of clinical embeddings are used to calculate the distance between search input CUIs and the clinical trial CUIs:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set of clinical embeddings are used to calculate the distance between search input concepts and the clinical trial concepts:
 <center><img src='cosinesim.png'></img></center>
 
 All trials are ranked based on a weighted similarity score and presented to the user:

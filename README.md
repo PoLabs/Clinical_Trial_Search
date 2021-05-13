@@ -19,7 +19,7 @@ NLP powered trial search using ClinTrials.gov database
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we split the search input into n-grams:
 <center><img src='ngrams.png'></img></center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then match the n-gram terms to concets:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then match the n-gram terms to concepts:
 <center><img src='ngramCUIs.png'></img></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set of clinical embeddings are used to calculate the distance between search input concepts and the clinical trial concepts:
